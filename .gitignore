@@ -225,5 +225,5 @@ __marimo__/
 .vscode/
 
 # Large datasets
-data/
-datasets/
+# data/
+# datasets/
