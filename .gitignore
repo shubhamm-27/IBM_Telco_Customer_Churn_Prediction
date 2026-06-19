@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ML model files
+*.pkl
+*.joblib
+
+# VS Code settings
+.vscode/
+
+# Large datasets (uncomment if needed)
+# data/
+# datasets/
