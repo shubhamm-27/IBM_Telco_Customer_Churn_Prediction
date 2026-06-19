@@ -224,6 +224,6 @@ __marimo__/
 # VS Code settings
 .vscode/
 
-# Large datasets (uncomment if needed)
+# Large datasets
 # data/
 # datasets/
