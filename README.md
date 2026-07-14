@@ -1,4 +1,13 @@
-# 📊 IBM Telco Customer Churn Prediction
+# IBM Telco Customer Churn Prediction
+
+![Python](https://img.shields.io/badge/PYTHON-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/PANDAS-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NUMPY-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Scikit--Learn](https://img.shields.io/badge/SCIKIT--LEARN-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBOOST-006400?style=for-the-badge&logo=xgboost&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/MATPLOTLIB-11557C?style=for-the-badge)
+![Seaborn](https://img.shields.io/badge/SEABORN-4C72B0?style=for-the-badge)
+![Jupyter](https://img.shields.io/badge/JUPYTER-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 ## 🎯 Project Overview
 
@@ -216,7 +225,7 @@ The final trained model was saved using Joblib for future use and deployment.
 ```python
 import joblib
 
-joblib.dump(best_model, "churn_model.joblib")
+joblib.dump(best_model, "gb_churn_model.pkl")
 ```
 
 ---
@@ -242,14 +251,14 @@ joblib.dump(best_model, "churn_model.joblib")
 ## 📁 Repository Structure
 
 ```text
-IBM-Telco-Customer-Churn-Prediction/
+IBM_Telco_Customer_Churn_Prediction/
 │
 ├── README.md
 ├── LICENSE
 ├── .gitignore
 ├── requirements.txt
 ├── Telco-Customer-Churn.csv
-└── IBM_Telco_Customer_Churn_Prediction.ipynb
+└── notebook.ipynb
 ```
 
 ---
@@ -259,13 +268,13 @@ IBM-Telco-Customer-Churn-Prediction/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/shubhamm-27/IBM-Telco-Customer-Churn-Prediction.git
+git clone https://github.com/shubhamm-27/IBM_Telco_Customer_Churn_Prediction.git
 ```
 
 ### Navigate to the Project Directory
 
 ```bash
-cd IBM-Telco-Customer-Churn-Prediction
+cd IBM_Telco_Customer_Churn_Prediction
 ```
 
 ### Install Dependencies
@@ -316,15 +325,13 @@ Potential enhancements for this project include:
 
 ---
 
-## 📜 License
 
-This project is licensed under the MIT License.
+# 👨‍💻 Author
 
----
+## Shubham Sharma
 
+*Aspiring AI Engineer | Machine Learning Enthusiast*
 
-## 👨‍💻 Author
+📧 *Email:* shubham789keeds@gmail.com
 
-**Shubham Sharma**
-
-Aspiring AI Engineer | Machine Learning Enthusiast
+💼 *LinkedIn:* [Shubham Sharma](https://www.linkedin.com/in/shubhammm27/)
